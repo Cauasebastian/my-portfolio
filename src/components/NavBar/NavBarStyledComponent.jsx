@@ -2,6 +2,8 @@ import { Link as LinkR } from 'react-router-dom';
 import styled from 'styled-components';
 import _default from '../../themes/default';
 
+//Adicionar futuramente a barra em baixo da sessão que estiver sendo visualizada 
+
 export const Nav = styled.div`
     background-color: ${({theme}) => theme.card_light};
     height: 80px;
@@ -39,9 +41,15 @@ export const NavLogo = styled(LinkR)`
   }
 `;
 export const Span = styled.div`
-    padding: 0 4px;
+    padding: 1px 0px;
     font-weight: bold;
     font-size: 18px;
+`;
+export const B = styled.div`
+  color: ${({ theme }) => theme.primary};
+  padding: 0px;
+  font-weight: bold;
+  font-size: 18px;
 `;
 export const NavItems = styled.ul`
     width: 100%;
@@ -63,7 +71,7 @@ export const NavLink = styled.a`
     cursor: pointer;
     transition: all 0.2s ease-in-out;
     text-decoration: none;
-    :hover {
+    &:hover {
       color: ${({ theme }) => theme.primary};
     }
 
@@ -87,7 +95,7 @@ export const GitHubButton = styled.a`
   text-decoration: none;
   font-size: 16px;
   transition: all 0.6s ease-in-out;
-    :hover {
+    &:hover {
       background: ${({ theme }) => theme.primary};
       color: ${({ theme }) => theme.white};     
     }
@@ -160,7 +168,7 @@ export const MobileMenuLink = styled(LinkR)`
   cursor: pointer;
   transition: all 0.2s ease-in-out;
   text-decoration: none;
-  :hover {
+  &:hover {
     color: ${({ theme }) => theme.primary};
   }
 
@@ -184,7 +192,7 @@ export const MobileMenuButton = styled.a`
   font-size: 16px;
   transition: all 0.6s ease-in-out;
 
-  :hover {
+  &:hover {
     background: ${({ theme }) => theme.primary};
     color: ${({ theme }) => theme.white};
   }
@@ -196,7 +204,7 @@ export  const MobileLink = styled.a`
   cursor: pointer;
   transition: all 0.2s ease-in-out;
   text-decoration: none;
-  :hover {
+  &:hover {
     color: ${({ theme }) => theme.primary};
   }
 

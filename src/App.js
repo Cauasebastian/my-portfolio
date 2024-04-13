@@ -4,7 +4,7 @@ import { BrowserRouter as Router } from 'react-router-dom'; // Importe BrowserRo
 import { ThemeProvider } from 'styled-components';
 import { darkTheme, lightTheme } from './util/themes';
 import NavBar from './components/NavBar';
-import Hero from './components/HeroSection';
+import HeroSection from './components/HeroSection';
 import Skills from './components/Skills';
 import Education from './components/Education';
 
@@ -28,7 +28,7 @@ function App() {
       <Router>
         <NavBar />
         <Body>
-          <Hero />
+          <HeroSection />
           <Wrapper>
             <Skills />
             <Education />
