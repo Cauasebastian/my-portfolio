@@ -1,9 +1,9 @@
 import React from 'react'
 import { Nav, NavLink, NavbarContainer, Span, NavLogo, NavItems, GitHubButton, ButtonContainer, MobileIcon, MobileMenu, MobileNavLogo, MobileLink,B } from './NavBarStyledComponent'
 import { DiReact } from "react-icons/di";
-import { FaBars } from 'react-icons/fa';
+import { FaBars, FaTimes } from 'react-icons/fa';
 import { Bio } from '../../data/constants';
-import { Close, CloseRounded } from '@mui/icons-material';
+import { Close, CloseRounded, Style } from '@mui/icons-material';
 import { useTheme } from 'styled-components';
 
 const Navbar = () => {
@@ -17,10 +17,8 @@ const Navbar = () => {
           <DiReact size="3rem" /> <Span>Sebastian</Span><B>Dev</B>
           </a>
         </NavLogo>
-        <MobileIcon>
-          <FaBars onClick={() => {
-            setIsOpen(!isOpen)
-          }} />
+        <MobileIcon onClick={() => setIsOpen(!isOpen)}>
+          {isOpen ? <FaTimes /> : <FaBars />}
         </MobileIcon>
         <NavItems>
           <NavLink href="#about">About</NavLink>
@@ -50,7 +48,7 @@ const Navbar = () => {
             <MobileLink href='#education' onClick={() => {
               setIsOpen(!isOpen)
             }}>Education</MobileLink>
-            <GitHubButton style={{padding: '10px 16px',background: `${theme.primary}`, color: 'white',width: 'max-content'}} href={Bio.github} target="_blank">Github Profile</GitHubButton>
+            <GitHubButton style={{padding: '10px 16px',marginLeft: '50px',background: `${theme.primary}`, color: 'white',width: 'max-content'}} href={Bio.github} target="_blank">Github Profile</GitHubButton>
           </MobileMenu>
         }
       </NavbarContainer>

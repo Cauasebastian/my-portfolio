@@ -148,7 +148,7 @@ export const MobileMenu = styled.div`
     box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.2);
     opacity: ${({ isOpen }) => (isOpen ? '100%' : '0')};
     z-index: ${({ isOpen }) => (isOpen ? '1000' : '-1000')};
-
+    margin-left: 10%;
 `
 
 export const MobileMenuItems = styled.ul`
@@ -190,7 +190,7 @@ export const MobileMenuButton = styled.a`
   font-weight: 500;
   text-decoration: none;
   font-size: 16px;
-  transition: all 0.6s ease-in-out;
+  transition: all 0.6s ease-in-out; 
 
   &:hover {
     background: ${({ theme }) => theme.primary};
@@ -204,6 +204,7 @@ export  const MobileLink = styled.a`
   cursor: pointer;
   transition: all 0.2s ease-in-out;
   text-decoration: none;
+  margin-left: 70px; 
   &:hover {
     color: ${({ theme }) => theme.primary};
   }
