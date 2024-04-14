@@ -4,6 +4,7 @@ import _default from '../../themes/default';
 
 //Adicionar futuramente a barra em baixo da sessão que estiver sendo visualizada 
 
+//container da navbar
 export const Nav = styled.div`
     background-color: ${({theme}) => theme.card_light};
     height: 80px;
@@ -18,6 +19,7 @@ export const Nav = styled.div`
         trastion: 0.8s all ease;
     }
 `;
+//segundo container dos items
 export const NavbarContainer = styled.div`
   display: flex;
   justify-content: space-between;
@@ -27,8 +29,9 @@ export const NavbarContainer = styled.div`
   width: 100%;
   padding: 0 24px;
   max-width: 1200px;
+  
 `;
-
+//container da Logo e Nome
 export const NavLogo = styled(LinkR)`
     width: 80%;    
     padding: 0 6px;
@@ -40,17 +43,20 @@ export const NavLogo = styled(LinkR)`
       padding: 0 0px;
   }
 `;
+//span do nome
 export const Span = styled.div`
     padding: 1px 0px;
     font-weight: bold;
     font-size: 18px;
 `;
+//fonte roxa do nome
 export const B = styled.div`
   color: ${({ theme }) => theme.primary};
   padding: 0px;
   font-weight: bold;
   font-size: 18px;
 `;
+//box dos itens da navbar
 export const NavItems = styled.ul`
     width: 100%;
     display: flex;
@@ -64,7 +70,7 @@ export const NavItems = styled.ul`
       display: none;
     }
 `;
-
+//itens especificos
 export const NavLink = styled.a`
     color: ${({ theme }) => theme.text_primary};
     font-weight: 500;
@@ -80,7 +86,7 @@ export const NavLink = styled.a`
     }
 `;
 
-
+//button do github
 export const GitHubButton = styled.a`
   border: 1.8px solid ${({ theme }) => theme.primary};
   justify-content: center;
@@ -103,7 +109,7 @@ export const GitHubButton = styled.a`
     font-size: 14px;
     }
 `;
-
+//container do botao de github
 export const ButtonContainer = styled.div`
   width: 80%;  
   height: 100%;
@@ -116,7 +122,7 @@ export const ButtonContainer = styled.div`
   }
 `;
 
-
+//botao de menu do mobile
 export const MobileIcon = styled.div`
   display: none;
   @media screen and (max-width: 768px) {
@@ -130,7 +136,7 @@ export const MobileIcon = styled.div`
     color: ${({ theme }) => theme.text_primary};
   }
 `
-
+//menu do mobile(caixa)
 export const MobileMenu = styled.div`
     display: flex;
     flex-direction: column;
@@ -150,7 +156,7 @@ export const MobileMenu = styled.div`
     z-index: ${({ isOpen }) => (isOpen ? '1000' : '-1000')};
     margin-left: 10%;
 `
-
+//mobile ul
 export const MobileMenuItems = styled.ul`
   display: flex;
   flex-direction: column;
@@ -161,7 +167,7 @@ export const MobileMenuItems = styled.ul`
   width: 100%;
   height: 100%;
 `
-
+//mobile menu link
 export const MobileMenuLink = styled(LinkR)`
   color: ${({ theme }) => theme.text_primary};
   font-weight: 500;
@@ -176,7 +182,7 @@ export const MobileMenuLink = styled(LinkR)`
     border-bottom: 2px solid ${({ theme }) => theme.primary};
   }
 `;
-
+//mobile button
 export const MobileMenuButton = styled.a`
   border: 1.8px solid ${({ theme }) => theme.primary};
   justify-content: center;
@@ -197,7 +203,7 @@ export const MobileMenuButton = styled.a`
     color: ${({ theme }) => theme.white};
   }
 `;
-
+//items
 export  const MobileLink = styled.a`
   color: ${({ theme }) => theme.text_primary};
   font-weight: 500;
