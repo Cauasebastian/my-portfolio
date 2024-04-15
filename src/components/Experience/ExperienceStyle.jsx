@@ -1,6 +1,7 @@
 import React from 'react'
 import styled from 'styled-components'
 
+//container de tela experiências
 export const Container = styled.div`
     display: flex;
     flex-direction: column;
@@ -13,7 +14,7 @@ export const Container = styled.div`
         padding: 0px;
     }
 `;
-
+//Wrapper de tela experiências
 export const Wrapper = styled.div`
     position: relative;
     display: flex;
@@ -28,7 +29,7 @@ export const Wrapper = styled.div`
         flex-direction: column;
     }
 `;
-
+//Título de tela experiências
 export const Title = styled.div`
 font-size: 42px;
 text-align: center;
@@ -40,7 +41,7 @@ margin-top: 20px;
       font-size: 32px;
   }
 `;
-
+//Descrição de tela experiências
 export const Desc = styled.div`
     font-size: 18px;
     text-align: center;
@@ -51,7 +52,7 @@ export const Desc = styled.div`
         font-size: 16px;
     }
 `;
-
+//Seção de linha do tempo
 export const TimelineSection = styled.div`
     width: 100%;
     max-width: 1000px;

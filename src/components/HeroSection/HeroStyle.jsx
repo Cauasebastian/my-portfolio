@@ -1,6 +1,7 @@
 import styled from "styled-components";
 import _default from "../../themes/default";
 
+//Container da seção do Hero
 export const HeroContainer = styled.div`
   background: ${({ theme }) => theme.card_light};
   display: flex;
@@ -17,7 +18,7 @@ export const HeroContainer = styled.div`
 
   clip-path: polygon(0 0, 100% 0, 100% 100%, 70% 95%, 0 100%);
 `;
-
+//Container do background do Hero
 export const HeroBg = styled.div`
   position: absolute;
   display: flex;
@@ -41,7 +42,7 @@ export const HeroBg = styled.div`
     padding: 0 0px;
   }
 `;
-
+//Imagem do background do Hero
 export const HeroInnerContainer = styled.div`
   position: relative;
   display: flex;
@@ -54,6 +55,7 @@ export const HeroInnerContainer = styled.div`
     flex-direction: column;
   }
 `;
+//Container do texto do Hero
 export const HeroLeftContainer = styled.div`
   width: 100%;
   order: 1;
@@ -74,6 +76,7 @@ export const HeroLeftContainer = styled.div`
   }
 `;
 
+//Container da imagem do Hero
 export const HeroRightContainer = styled.div`
   width: 100%;
   display: flex;
@@ -91,7 +94,7 @@ export const HeroRightContainer = styled.div`
     margin-bottom: 30px;
   }
 `;
-
+//Imagem do Hero
 export const Img = styled.img`
   position: relative;
   width: 100%;
@@ -111,7 +114,7 @@ export const Img = styled.img`
     max-height: 280px;
   }
 `;
-
+//Container do title do Hero
 export const Title = styled.div`
   font-weight: 700;
   font-size: 50px;
@@ -127,7 +130,7 @@ export const Title = styled.div`
     margin-bottom: 8px;
   }
 `;
-
+//Container do texto LOOP do Hero
 export const TextLoop = styled.div`
   font-weight: 600;
   font-size: 32px;
@@ -144,12 +147,12 @@ export const TextLoop = styled.div`
     margin-bottom: 16px;
   }
 `;
-
+//Container do span da mensagem de Loop
 export const Span = styled.span`
   color: ${({ theme }) => theme.primary};
   cursor: pointer;
 `;
-
+//container da descrição
 export const SubTitle = styled.div`
   font-size: 20px;
   line-height: 32px;
@@ -165,7 +168,7 @@ export const SubTitle = styled.div`
     line-height: 32px;
   }
 `;
-
+//Container do botão de download do currículo
 export const ResumeButton = styled.a`
     -webkit-appearance: button;
     -moz-appearance: button;

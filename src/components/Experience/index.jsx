@@ -23,9 +23,12 @@ const index = () => {
                         {experiences.map((experience,index) => (
                             <TimelineItem>
                                 <TimelineSeparator>
+                                    {/*ponto que marca o início da linha*/}
                                     <TimelineDot variant="outlined" color="secondary" />
-                                    {index !== experiences.length - 1 && <TimelineConnector style={{ background: '#854CE6' }} />}
+                                    {/*linha que conecta os pontos*/}
+                                    {index !== experiences.length - 0 && <TimelineConnector style={{ background: '#854CE6' }} />}
                                 </TimelineSeparator>
+                                {/*conteúdo do card*/}
                                 <TimelineContent sx={{ py: '12px', px: 2 }}>
                                     <ExperienceCard experience={experience}/>
                                 </TimelineContent>
