@@ -7,6 +7,7 @@ import NavBar from './components/NavBar';
 import HeroSection from './components/HeroSection';
 import Skills from './components/Skills';
 import Education from './components/Education';
+import Experience from './components/Experience';
 
 const Body = styled.div`
   background-color: ${({ theme }) => theme.bg};
@@ -32,6 +33,9 @@ function App() {
           <Wrapper>
             <Skills />
             <Education />
+          </Wrapper>
+          <Wrapper>
+            <Experience />
           </Wrapper>
         </Body>
       </Router>
