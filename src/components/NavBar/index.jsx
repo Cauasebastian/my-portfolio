@@ -1,12 +1,12 @@
 import React from 'react'
-import { Nav, NavLink, NavbarContainer, Span, NavLogo, NavItems, GitHubButton, ButtonContainer, MobileIcon, MobileMenu, MobileNavLogo, MobileLink,B } from './NavBarStyledComponent'
+import { Nav, NavLink, NavbarContainer, Span, NavLogo, NavItems, GitHubButton, ButtonContainer, MobileIcon, MobileMenu, MobileNavLogo, MobileLink, B } from './NavBarStyledComponent'
 import { DiReact } from "react-icons/di";
 import { FaBars, FaTimes } from 'react-icons/fa';
 import { Bio } from '../../data/constants';
-import { Close, CloseRounded, Style } from '@mui/icons-material';
 import { useTheme } from 'styled-components';
+import ToggleTheme from './ToggleTheme';
 
-const Navbar = () => {
+const Navbar = ({ toggleTheme, darkMode }) => {
   const [isOpen, setIsOpen] = React.useState(false);
   const theme = useTheme()
   return (
@@ -14,7 +14,7 @@ const Navbar = () => {
       <NavbarContainer>
         <NavLogo to='/'>
           <a style={{ display: "flex", alignItems: "center", color: "white", marginBottom: '20;', cursor: 'pointer' }}>
-          <DiReact size="3rem" /> <Span>Sebastian</Span><B>Dev</B>
+            <DiReact size="3rem" /> <Span>Sebastian</Span><B>Dev</B>
           </a>
         </NavLogo>
         <MobileIcon onClick={() => setIsOpen(!isOpen)}>
@@ -30,6 +30,7 @@ const Navbar = () => {
         <ButtonContainer>
           <GitHubButton href={Bio.github} target="_blank">Github Profile</GitHubButton>
         </ButtonContainer>
+        <NavItems><ToggleTheme toggleTheme={toggleTheme} darkMode={darkMode} /></NavItems>
         {
           isOpen &&
           <MobileMenu isOpen={isOpen}>
@@ -48,7 +49,7 @@ const Navbar = () => {
             <MobileLink href='#education' onClick={() => {
               setIsOpen(!isOpen)
             }}>Education</MobileLink>
-            <GitHubButton style={{padding: '10px 16px',marginLeft: '50px',background: `${theme.primary}`, color: 'white',width: 'max-content'}} href={Bio.github} target="_blank">Github Profile</GitHubButton>
+            <GitHubButton style={{ padding: '10px 16px', marginLeft: '50px', background: `${theme.primary}`, color: 'white', width: 'max-content' }} href={Bio.github} target="_blank">Github Profile</GitHubButton>
           </MobileMenu>
         }
       </NavbarContainer>

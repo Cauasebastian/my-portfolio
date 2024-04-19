@@ -1,13 +1,17 @@
-import React, { useState } from 'react';
-import styled from 'styled-components';
-import { BrowserRouter as Router } from 'react-router-dom'; // Importe BrowserRouter
-import { ThemeProvider } from 'styled-components';
-import { darkTheme, lightTheme } from './util/themes';
+import { ThemeProvider } from "styled-components";
+import { useState, useEffect } from "react";
+import { darkTheme, lightTheme } from './util/themes.js'
 import NavBar from './components/NavBar';
-import HeroSection from './components/HeroSection';
-import Skills from './components/Skills';
-import Education from './components/Education';
-import Experience from './components/Experience';
+import './App.css';
+import { BrowserRouter as Router } from 'react-router-dom';
+import HeroSection from "./components/HeroSection";
+import Skills from "./components/Skills";
+import Projects from "./components/Projects";
+import Experience from "./components/Experience";
+import Education from "./components/Education";
+import ProjectDetails from "./components/ProjectDetails";
+import styled from "styled-components";
+
 
 const Body = styled.div`
   background-color: ${({ theme }) => theme.bg};
@@ -15,6 +19,7 @@ const Body = styled.div`
   height:100%;
   overflow-x: hidden;
 `;
+
 const Wrapper = styled.div`
   background: linear-gradient(38.73deg, rgba(204, 0, 187, 0.15) 0%, rgba(201, 32, 184, 0) 50%), linear-gradient(141.27deg, rgba(0, 70, 209, 0) 50%, rgba(0, 70, 209, 0.15) 100%);
   width: 100%;
@@ -22,21 +27,43 @@ const Wrapper = styled.div`
 `;
 
 function App() {
-  const [darkMode, setDarkMode] = useState(false); // Assuming initial state is light mode
+  const [darkMode, setDarkMode] = useState(false);
+  const [openModal, setOpenModal] = useState({ state: false, project: null });
+
+  useEffect(() => {
+    // Salvar o tema escolhido no localStorage
+    localStorage.setItem("darkMode", JSON.stringify(darkMode));
+  }, [darkMode]);
+
+  useEffect(() => {
+    // Carregar o tema escolhido do localStorage quando o aplicativo for montado
+    const savedDarkMode = JSON.parse(localStorage.getItem("darkMode"));
+    if (savedDarkMode !== null) {
+      setDarkMode(savedDarkMode);
+    }
+  }, []);
+
+  const toggleTheme = () => {
+    setDarkMode(!darkMode);
+  };
 
   return (
-    <ThemeProvider theme={darkTheme}>
+    <ThemeProvider theme={darkMode ? darkTheme : lightTheme}>
       <Router>
-        <NavBar />
+        <NavBar toggleTheme={toggleTheme} />
         <Body>
           <HeroSection />
           <Wrapper>
             <Skills />
-            <Education />
-          </Wrapper>
-          <Wrapper>
             <Experience />
           </Wrapper>
+          <Projects openModal={openModal} setOpenModal={setOpenModal} />
+          <Wrapper>
+            <Education />
+          </Wrapper>
+          {openModal.state &&
+            <ProjectDetails openModal={openModal} setOpenModal={setOpenModal} />
+          }
         </Body>
       </Router>
     </ThemeProvider>
@@ -44,4 +71,3 @@ function App() {
 }
 
 export default App;
-export { darkTheme, lightTheme };
