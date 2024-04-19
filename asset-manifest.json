@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/Cauasebastian/my-portfolio/static/css/main.c55bdca2.css",
+    "main.js": "/Cauasebastian/my-portfolio/static/js/main.920fd19a.js",
+    "static/js/453.41811d64.chunk.js": "/Cauasebastian/my-portfolio/static/js/453.41811d64.chunk.js",
+    "static/media/HeroImage.jpeg": "/Cauasebastian/my-portfolio/static/media/HeroImage.4717efb01bf3830f5d2a.jpeg",
+    "index.html": "/Cauasebastian/my-portfolio/index.html",
+    "main.c55bdca2.css.map": "/Cauasebastian/my-portfolio/static/css/main.c55bdca2.css.map",
+    "main.920fd19a.js.map": "/Cauasebastian/my-portfolio/static/js/main.920fd19a.js.map",
+    "453.41811d64.chunk.js.map": "/Cauasebastian/my-portfolio/static/js/453.41811d64.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c55bdca2.css",
+    "static/js/main.920fd19a.js"
+  ]
+}
