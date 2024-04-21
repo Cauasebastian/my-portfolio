@@ -3,6 +3,7 @@ import { styled } from '@mui/material/styles';
 import FormGroup from '@mui/material/FormGroup';
 import FormControlLabel from '@mui/material/FormControlLabel';
 import Switch from '@mui/material/Switch';
+import { useTheme } from 'styled-components'; // Importe o hook useTheme aqui
 
 const MaterialUISwitch = styled(Switch)(({ theme }) => ({
   width: 62,
@@ -52,9 +53,19 @@ const MaterialUISwitch = styled(Switch)(({ theme }) => ({
 }));
 
 const ToggleTheme = ({ toggleTheme, darkMode }) => {
+  const theme = useTheme(); // Use o hook useTheme aqui para acessar o tema
   return (
     <FormGroup>
-      <FormControlLabel style={{padding: '10px 16px', marginLeft: '50px'}}
+      <FormControlLabel
+        style={{
+          padding: '0px',
+          marginLeft: 'px',
+          fontweight:'500',
+          color: theme.text_primary,
+          '&:hover': {
+            color: 'Red',
+          },
+        }}
         control={<MaterialUISwitch sx={{ m: 1 }} defaultChecked />}
         label="Theme"
         labelPlacement="start"

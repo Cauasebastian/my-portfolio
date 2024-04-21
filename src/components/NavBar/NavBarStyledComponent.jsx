@@ -6,7 +6,7 @@ import _default from '../../themes/default';
 
 //container da navbar
 export const Nav = styled.div`
-    background-color: ${({theme}) => theme.card_light};
+    background: ${({ theme }) => theme.card_light};
     height: 80px;
     display: flex;
     align-items: center;
@@ -45,6 +45,7 @@ export const NavLogo = styled(LinkR)`
 `;
 //span do nome
 export const Span = styled.div`
+    color: ${({ theme }) => theme.text_primary};
     padding: 1px 0px;
     font-weight: bold;
     font-size: 18px;
@@ -210,7 +211,7 @@ export  const MobileLink = styled.a`
   cursor: pointer;
   transition: all 0.2s ease-in-out;
   text-decoration: none;
-  margin-left: 70px; 
+  margin-left: 0px; 
   &:hover {
     color: ${({ theme }) => theme.primary};
   }
@@ -219,6 +220,7 @@ export  const MobileLink = styled.a`
     border-bottom: 2px solid ${({ theme }) => theme.primary};
   }
 `;
+
 
 export const MobileNavLogo = styled(LinkR)`
   width: 80%;
@@ -230,4 +232,11 @@ export const MobileNavLogo = styled(LinkR)`
   @media (max-width: 640px) {
     padding: 0 0px;
   }
+`;
+export const ToggleThemeContainer = styled.div`
+  display: flex;
+  align-items: left;
+  margin-left: 0px; // Ajuste conforme necessário para alinhar com os NavLink
+  cursor: pointer;
+  padding: 0 px;
 `;

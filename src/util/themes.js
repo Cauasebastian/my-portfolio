@@ -9,6 +9,9 @@ export const darkTheme = {
     button:"#854CE6",
     white:"#FFFFFF",
     black:"#000000",
+    skillboxborder: 'rgb(133 76 230 / 24%)',
+    skillboxcolor: 'rgb(133 76 230 / 24%)',
+    projectsbg:  'linear-gradient(343.07deg, rgba(132, 59, 206, 0.06) 5.71%, rgba(132, 59, 206, 0) 64.83%)',
 }
 
 export const lightTheme = {
@@ -16,7 +19,13 @@ export const lightTheme = {
     bgLight: "#f0f0f0",
     primary:"#be1adb",
     text_primary:"#111111",
-    text_secondary:"#48494a",
-    card:"#FFFFFF",
-    button:"#5c5b5b",
+    text_secondary:"#3b3b3b",
+    card:"#ffffff",
+    card_light: '#f0f0f3',
+    button:"#be1adb",
+    black:"#ffffff",
+    white:"#ffffff",
+    skillboxborder: 'rgba(190,26,219,0.11)',
+    skillboxcolor: 'rgba(190,26,219,0.09)',
+    projectsbg:  'linear-gradient(343.07deg, rgb(114 112 112 / 15%) 5.71%, rgb(255 255 255 / 4%) 64.83%)',
 }

@@ -9,6 +9,7 @@ justify-content: center;
 position: relative;
 z-index: 1;
 align-items: center;
+background: ${({ theme }) => theme.bg};
 
 `
 //div
@@ -62,8 +63,8 @@ export const Skill = styled.div`
   width: 100%;
   max-width: 500px;
   background: ${({ theme }) => theme.card};
-  border: 0.1px solid #854CE6;
-  box-shadow: rgba(23, 92, 230, 0.15) 0px 4px 24px;
+  border: 2px solid ${({ theme }) => theme.skillboxborder};
+  box-shadow: 0px 0px 10px 5px ${({ theme }) => theme.skillboxcolor};
   border-radius: 16px;
   padding: 18px 36px;
   @media (max-width: 768px) {
@@ -93,15 +94,16 @@ export const SkillList = styled.div`
   flex-wrap: wrap;
   gap: 12px;
   margin-bottom: 20px;
-  
 `
 //skill
 export const SkillItem = styled.div`
   font-size: 16px;
   font-weight: 400;
-  color: ${({ theme }) => theme.text_primary + 80};
-  border: 1px solid ${({ theme }) => theme.text_primary + 80};
+  color: ${({ theme }) => theme.text_primary };
+  border: 1px solid ${({ theme }) => theme.text_primary };
   border-radius: 12px;
+  background: ${({ theme }) => theme.text_primary +100};
+  background-filter: blur(30px);
   padding: 12px 16px;
   display: flex;
   align-items: center;
@@ -114,6 +116,10 @@ export const SkillItem = styled.div`
   @media (max-width: 500px) {
     font-size: 14px;
     padding: 6px 12px;
+  }
+  &:hover {
+    transform: scale(1.05);
+transition:  0.1s ease-in-out;
   }
 `
 //skill img

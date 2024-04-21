@@ -31,7 +31,7 @@ export const Bio = {
         {
           name: "CSS",
           image:
-            "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/CSS3_logo_and_wordmark.svg/1452px-CSS3_logo_and_wordmark.svg.png",
+            "https://avatars.githubusercontent.com/u/1517864?s=200&v=4",
         },
         {
           name: "JavaScript",
@@ -55,7 +55,7 @@ export const Bio = {
       "skills": [
         {
           "name": "Node Js",
-          "image": "https://nodejs.org/static/images/logo.svg"
+          "image": "https://avatars.githubusercontent.com/u/9950313?s=200&v=4"
         },
         {
           "name": "Java",
