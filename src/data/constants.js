@@ -173,7 +173,7 @@ export const Bio = {
       description:
       "O Projeto Web Services com Spring Boot e JPA / Hibernate é uma aplicação desenvolvida como parte do curso DevSuperior. Tem como objetivo demonstrar a implementação de um conjunto de funcionalidades utilizando Spring Boot, JPA / Hibernate e Maven. Este projeto inclui operações CRUD (Create, Retrieve, Update, Delete) para entidades como Usuário, Order, OrderItem, Payment, Product e Category. Além disso, possui tratamento de exceções para lidar com possíveis erros durante as chamadas de API.",  
       image:
-        "C:\\Users\\cauas\\Desktop\\Porfolio React\\my-portfolio\\public\\Captura de tela 2024-04-22 200753.png",
+        "https://github.com/Cauasebastian/my-portfolio/blob/master/public/Captura%20de%20tela%202024-04-22%20200753.png?raw=true",
       tags: ["React",
        "MongoDb",
        "Javascript",
