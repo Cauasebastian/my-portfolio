@@ -12,6 +12,7 @@ import Education from "./components/Education";
 import ProjectDetails from "./components/ProjectDetails";
 import styled from "styled-components";
 import Contact from "./components/Contact";
+import Footer from "./components/Footer";
 
 
 const Body = styled.div`
@@ -63,6 +64,7 @@ function App() {
             <Education />
             <Contact />
           </Wrapper>
+          <Footer />
           {openModal.state &&
             <ProjectDetails openModal={openModal} setOpenModal={setOpenModal} />
           }
