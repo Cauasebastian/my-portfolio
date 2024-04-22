@@ -173,7 +173,7 @@ export const Bio = {
       description:
       "O Projeto Web Services com Spring Boot e JPA / Hibernate é uma aplicação desenvolvida como parte do curso DevSuperior. Tem como objetivo demonstrar a implementação de um conjunto de funcionalidades utilizando Spring Boot, JPA / Hibernate e Maven. Este projeto inclui operações CRUD (Create, Retrieve, Update, Delete) para entidades como Usuário, Order, OrderItem, Payment, Product e Category. Além disso, possui tratamento de exceções para lidar com possíveis erros durante as chamadas de API.",  
       image:
-        "",
+        "C:\\Users\\cauas\\Desktop\\Porfolio React\\my-portfolio\\public\\Captura de tela 2024-04-22 200753.png",
       tags: ["React",
        "MongoDb",
        "Javascript",
@@ -254,5 +254,18 @@ export const Bio = {
     github: "",
     webapp: "",
   },
+    {
+      id: 5,
+      title: "Site Climatico",
+      date: "Nov 27 -  Nov 31",
+      description:
+          "Este é um simples site climático que permite aos usuários verificar o clima de qualquer cidade em tempo real. Desenvolvido por Cauã Sebastian.Dev como um dos seus primeiros projetos, o site utiliza tecnologias como HTML, CSS e JavaScript, juntamente com as APIs do OpenWeatherMap e do Unsplash. Além de fornecer dados meteorológicos como temperatura, umidade e velocidade do vento, o site também exibe uma imagem representativa da cidade pesquisada. Uma ótima ferramenta para quem deseja estar sempre atualizado sobre as condições climáticas.",
+      image:
+          "https://media.licdn.com/dms/image/D4D22AQE-Y9ycSAyU2A/feedshare-shrink_800/0/1710439805961?e=1716422400&v=beta&t=vi8w7SqGQgaIaZuZfeDO5nzdGB-zzQvIliinoUUTXNE",
+      tags: ["HTML", "CSS", "Javascript", "Api",],
+      category: "FrontEnd",
+      github: "https://github.com/Cauasebastian/site-climatico",
+      webapp: "https://cauasebastian.github.io/site-climatico/",
+    },
   ];
   
