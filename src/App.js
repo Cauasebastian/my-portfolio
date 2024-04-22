@@ -11,6 +11,7 @@ import Experience from "./components/Experience";
 import Education from "./components/Education";
 import ProjectDetails from "./components/ProjectDetails";
 import styled from "styled-components";
+import Contact from "./components/Contact";
 
 
 const Body = styled.div`
@@ -60,6 +61,7 @@ function App() {
           <Projects openModal={openModal} setOpenModal={setOpenModal} />
           <Wrapper>
             <Education />
+            <Contact />
           </Wrapper>
           {openModal.state &&
             <ProjectDetails openModal={openModal} setOpenModal={setOpenModal} />
