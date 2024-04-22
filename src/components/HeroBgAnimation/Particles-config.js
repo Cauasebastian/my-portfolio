@@ -1,3 +1,5 @@
+
+import {darkTheme, lightTheme as theme} from "../../util/themes";
 const particlesConfig = {
     particles: {
         number: {
@@ -8,13 +10,13 @@ const particlesConfig = {
             },
         },
         color: {
-            value: "#ffffff", // Color of particles
+            value:  theme.primary, // Color of particles
         },
         shape: {
             type: "circle", // Shape of particles (circle, edge, triangle, polygon, star, image)
             stroke: {
-                width: 0,
-                color: "#000000",
+                width: 1,
+                color: theme.primary,
             },
             polygon: {
                 nb_sides: 5,
@@ -22,12 +24,12 @@ const particlesConfig = {
         },
         opacity: {
             value: 0.5, // Opacity of particles
-            random: false,
+            random: true,
             anim: {
                 enable: false,
-                speed: 1,
+                speed: 4,
                 opacity_min: 0.1,
-                sync: false,
+                sync: true,
             },
         },
         size: {
@@ -43,18 +45,18 @@ const particlesConfig = {
         line_linked: {
             enable: true, // Connects particles with lines
             distance: 150, // Distance between connected particles
-            color: "#ffffff", // Color of the lines
+            color: theme.text_primary, // Color of the lines
             opacity: 0.4, // Opacity of the lines
             width: 1, // Width of the lines
         },
         move: {
             enable: true, // Enables movement of particles
-            speed: 6, // Speed of particles
+            speed: 2, // Speed of particles
             direction: "none", // Direction of movement (none, top, top-right, right, bottom-right, bottom, bottom-left, left, top-left)
-            random: false,
-            straight: false,
+            random: true, // Randomizes the speed
+            straight: true, // Straight line movement
             out_mode: "out", // Out mode (out, bounce)
-            bounce: false,
+            bounce: true,
             attract: {
                 enable: false,
                 rotateX: 600,

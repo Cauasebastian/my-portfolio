@@ -10,9 +10,9 @@ export const Bio = {
       "Sou Cauã Sebastian, um Desenvolvedor Full Stack motivado e versátil, sempre pronto para novos desafios. Com experiência em projetos acadêmicos e pessoais, busco minha primeira oportunidade de trabalho em tempo integral. Minha liderança em projetos universitários me ensinou a importância da colaboração e comunicação eficaz. Com uma mentalidade de crescimento, estou pronto para contribuir significativamente e alcançar grandes coisas. Explore meu portfólio!",
     github: "https://github.com/Cauasebastian",
     resume:
-      "https://docs.google.com/document/d/1zv8zCWio3OWn2cT20oeZPg8TwPd61AZTF1dQMXKHAXg/edithttps://docs.google.com/document/d/e/2PACX-1vRz_LTDRIZCCDN-4xZfBrqDEiRfQ8lsbALVE7Mm_UWSPjhzfcGnFYhfhHLYNn7HICINCbTUbrf5t2F0/pub",
+      "https://docs.google.com/document/d/1zv8zCWio3OWn2cT20oeZPg8TwPd61AZTF1dQMXKHAXg/edit?usp=sharing",
     linkedin: "www.linkedin.com/in/cauã-sebastian-57a532259",
-    insta: ""
+    insta: "https://www.instagram.com/caua_sebastian"
   };
   
   export const skills = [

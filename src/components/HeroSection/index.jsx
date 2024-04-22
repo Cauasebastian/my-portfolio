@@ -9,11 +9,11 @@ const HeroSection = () => {
     return (
         <div id="about">
             <HeroContainer>
-                <HeroBg>
+                <HeroBg style={{zIndex: 1}}>
                     <ParticleBackground />
                 </HeroBg>
                 <HeroInnerContainer >
-                    <HeroLeftContainer id="Left">
+                    <HeroLeftContainer id="Left"  style={{zIndex: 99}}>
                         <Title>Hi, I am <br /> {Bio.name}</Title>
                         <TextLoop>
                             I am a
@@ -32,7 +32,7 @@ const HeroSection = () => {
                     </HeroLeftContainer>
 
                     <HeroRightContainer id="Right">
-                        <Img src={HeroImg} alt="hero-image" />
+                        <Img src={HeroImg} alt="hero-image" style={{zIndex: 3}} />
                     </HeroRightContainer>
                 </HeroInnerContainer>
             </HeroContainer>

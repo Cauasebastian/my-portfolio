@@ -181,6 +181,7 @@ export const ResumeButton = styled.a`
     color:${({ theme }) => theme.black};
     border-radius: 20px;
     cursor: pointer;
+    z-index: 99;
     font-size: 20px;
     font-weight: 600;
     transition: all 0.2s ease-in-out !important;
