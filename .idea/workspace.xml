@@ -5,12 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9d34fcdc-688e-4dd1-b62a-4188a641f0b2" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/components/Cards/ProjectCards.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/ProjectDetails/index.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Projects/ProjectsStyle.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Projects/index.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/HeroBgAnimation/ParticlesBackground.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/HeroBgAnimation/HeroBgAnimationStyle.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/HeroBgAnimation/Particles-config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/HeroBgAnimation/index.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/HeroSection/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/HeroSection/index.jsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,6 +33,10 @@
     &quot;accountId&quot;: &quot;744aa64d-ec03-4da4-83a0-7ed351ce4389&quot;
   }
 }</component>
+  <component name="KubernetesApiPersistence"><![CDATA[{}]]></component>
+  <component name="KubernetesApiProvider"><![CDATA[{
+  "isMigrated": true
+}]]></component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
@@ -103,6 +108,7 @@
       <workItem from="1713407322709" duration="605000" />
       <workItem from="1713465886187" duration="117000" />
       <workItem from="1713466295695" duration="93000" />
+      <workItem from="1713814305646" duration="1991000" />
     </task>
     <servers />
   </component>
