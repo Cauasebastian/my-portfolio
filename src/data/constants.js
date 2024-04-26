@@ -171,7 +171,7 @@ export const Bio = {
       title: "Conectech",
       date: "apri 2024 - jun 2024",
       description:
-      "O Projeto Web Services com Spring Boot e JPA / Hibernate é uma aplicação desenvolvida como parte do curso DevSuperior. Tem como objetivo demonstrar a implementação de um conjunto de funcionalidades utilizando Spring Boot, JPA / Hibernate e Maven. Este projeto inclui operações CRUD (Create, Retrieve, Update, Delete) para entidades como Usuário, Order, OrderItem, Payment, Product e Category. Além disso, possui tratamento de exceções para lidar com possíveis erros durante as chamadas de API.",  
+      "Conectech é uma plataforma de interação e compartilhamento de informações projetada para profissionais da área de tecnologia. Com uma vasta gama de recursos e uma interface intuitiva, Conectech oferece uma experiência envolvente e produtiva para os usuários. Desde cadastro de usuário até participação em grupos e comunidades, passando por fóruns de discussão e chat em tempo real, Conectech é o ponto de encontro ideal para quem busca se manter atualizado e conectado com a comunidade tech. Desenvolvido utilizando tecnologias como React, MongoDB, Java e Spring Boot, o projeto oferece uma base sólida e escalável para garantir uma experiência de alta qualidade.",  
       image:
         "https://github.com/Cauasebastian/my-portfolio/blob/master/public/Captura%20de%20tela%202024-04-22%20200753.png?raw=true",
       tags: ["React",
@@ -182,8 +182,8 @@ export const Bio = {
        
       ],
       category: "Full Stack",
-      github: "",
-      webapp: "",
+      github: "https://github.com/Cauasebastian/conectech-back-end",
+      webapp: "https://conectech-vercel.vercel.app/",
       member: [
         {
           name: "Cauã Sebastian",
@@ -234,12 +234,12 @@ export const Bio = {
       title: "Chat Application",
       date: "Dec 2021 - Apr 2022",
       description:
-        "",
-      image:
-        "",
-      tags: ["Kotlin", "MVVM", "Room Database", "Google Drive Cloud API"],
+        "Estou explorando o desenvolvimento do Chat Application como parte do meu processo de aprendizado e experimentação. Com uma interface em React e um backend em Java, estou mergulhando nos conceitos de comunicação em tempo real através de websockets e handshake Este projeto é uma oportunidade para testar na prática como funciona um chat e uma aplicação em tempo real. Estou aprendendo sobre a construção de uma plataforma de bate-papo simples, mas funcional, com recursos básicos como troca de mensagens instantâneas e talvez algumas funcionalidades adicionais, como salas de bate-papo temáticas.",
+
+        image: "",
+         tags: ["Java", "Spring Websockets", "WebSockets", "REACT", "Ajax"],
       category: "BackEnd",
-      github: "https://github.com/Cauasebastian",
+    
     },
     {
     id: 4,
@@ -249,10 +249,9 @@ export const Bio = {
       "AzureEscape é um site de hotel fictício desenvolvido como parte do curso de Desenvolvimento Web Completo 2021. O site é responsivo e foi desenvolvido utilizando HTML5, CSS3 e JavaScript. Ele possui uma página inicial, uma página de quartos, uma página de contato e uma página de reserva. O site também possui um formulário de contato funcional que envia e-mails para o proprietário do hotel. O site foi hospedado no GitHub Pages e pode ser acessado em https://cauasebastian.github.io/AzureEscapeHotelWebsite/",
     image:
       "",
-    tags: ["Java", "MVVM", "React", "Spring Boot", "MongoDB",],
+    tags: ["Java", "MVVM", "React", "Spring Boot", "MongoDB","APIRESTFULL", "Cors", "Spring Security", "JWT"],
     category: "Full Stack",
-    github: "",
-    webapp: "",
+    
   },
     {
       id: 5,
