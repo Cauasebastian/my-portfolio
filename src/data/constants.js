@@ -171,7 +171,7 @@ export const Bio = {
       title: "Conectech",
       date: "apri 2024 - jun 2024",
       description:
-      "Conectech é uma plataforma de interação e compartilhamento de informações projetada para profissionais da área de tecnologia. Com uma vasta gama de recursos e uma interface intuitiva, Conectech oferece uma experiência envolvente e produtiva para os usuários. Desde cadastro de usuário até participação em grupos e comunidades, passando por fóruns de discussão e chat em tempo real, Conectech é o ponto de encontro ideal para quem busca se manter atualizado e conectado com a comunidade tech. Desenvolvido utilizando tecnologias como React, MongoDB, Java e Spring Boot, o projeto oferece uma base sólida e escalável para garantir uma experiência de alta qualidade.",  
+      "Conectech é uma plataforma de interação e compartilhamento de informações projetada para profissionais da área de tecnologia. Com uma vasta gama de recursos e uma interface intuitiva, Conectech oferece uma experiência envolvente e produtiva para os usuários. Desde cadastro de usuário até participação em grupos e comunidades, passando por fóruns de discussão e chat em tempo real, Conectech é o ponto de encontro ideal para quem busca se manter atualizado e conectado com a comunidade tech. Desenvolvido utilizando tecnologias como React, MongoDB, Java e Spring Boot, o projeto oferece uma base sólida e escalável para garantir uma experiência de alta qualidade. O projeto está em fase de desenvolmento mas ja possui diversas funcionalidades e ja pode ser acessado nos Links abaixo. O projeto ainda nao está com o backend e frontend integrados mas é possivel visualizar o frontend e o backend separadamente.",
       image:
         "https://github.com/Cauasebastian/my-portfolio/blob/master/public/Captura%20de%20tela%202024-04-22%20200753.png?raw=true",
       tags: ["React",
@@ -198,7 +198,7 @@ export const Bio = {
       title: "ProjetoSpringBoot",
       date: "jan 2024 - ",
       description:
-      "O Projeto Web Services com Spring Boot e JPA / Hibernate é uma aplicação desenvolvida como parte do curso DevSuperior, demonstrando operações CRUD para entidades fundamentais, como Usuário, Pedido, Item de Pedido, Pagamento, Produto e Categoria, utilizando tecnologias modernas como Spring Boot e JPA / Hibernate.",  
+      "O Projeto Web Services com Spring Boot e JPA / Hibernate é uma aplicação desenvolvida como parte do curso DevSuperior, demonstrando operações CRUD para entidades fundamentais, como Usuário, Pedido, Item de Pedido, Pagamento, Produto e Categoria, utilizando tecnologias modernas como Spring Boot e JPA / Hibernate.O projeto ja pode ser acessado no github e ja está disponivel para clone e testes.",
       image:
       "https://github.com/Cauasebastian/ProjetoSpringBoot/raw/master/Instancemodel.png",  
       tags: [
@@ -218,13 +218,14 @@ export const Bio = {
       title: "EcommerceClouthWebsite",
       date: "fev 2024 - Mar 2024",
       description:
-        " O Ecommerce Clouth Website é um site de comércio eletrônico fictício desenvolvido como parte do meu estudo e aprofundamento das tecnologias  HTML5, CSS3 e JavaScript. Ele possui uma página inicial, uma página de produtos e uma página de contato. O site também possui um formulário de contato funcional que envia e-mails para o proprietário do site. O site foi hospedado no GitHub Pages e pode ser acessado em https://cauasebastian.github.io/EcommerceClouthWebsite/sproduct.html.",
+        " O Ecommerce Clouth Website é um site de comércio eletrônico fictício desenvolvido como parte do meu estudo e aprofundamento das tecnologias  HTML5, CSS3 e JavaScript. Ele possui uma página inicial, uma página de produtos e uma página de contato. O site também possui um formulário de contato funcional que envia e-mails para o proprietário do site. O site foi hospedado no GitHub Pages e pode ser acessado Nos links abaixo.",
       image:
-        "",
+        "https://github.com/Cauasebastian/my-portfolio/blob/master/public/EcommerceClouthWebsite.png?raw=true",
       tags: [ 
       "html",
       "css",
-      "Javascript",],
+      "Javascript",
+      "UI/UX",],
       category: "FrontEnd",
       github: "https://github.com/Cauasebastian/EcommerceClouthWebsite",
       webapp: "https://cauasebastian.github.io/EcommerceClouthWebsite/sproduct.html",
@@ -234,9 +235,9 @@ export const Bio = {
       title: "Chat Application",
       date: "Dec 2021 - Apr 2022",
       description:
-        "Estou explorando o desenvolvimento do Chat Application como parte do meu processo de aprendizado e experimentação. Com uma interface em React e um backend em Java, estou mergulhando nos conceitos de comunicação em tempo real através de websockets e handshake Este projeto é uma oportunidade para testar na prática como funciona um chat e uma aplicação em tempo real. Estou aprendendo sobre a construção de uma plataforma de bate-papo simples, mas funcional, com recursos básicos como troca de mensagens instantâneas e talvez algumas funcionalidades adicionais, como salas de bate-papo temáticas.",
+        "Estou explorando o desenvolvimento do Chat Application como parte do meu processo de aprendizado e experimentação. Com uma interface em React e um backend em Java, estou mergulhando nos conceitos de comunicação em tempo real através de websockets e handshake Este projeto é uma oportunidade para testar na prática como funciona um chat e uma aplicação em tempo real. Estou aprendendo sobre a construção de uma plataforma de bate-papo simples, mas funcional, com recursos básicos como troca de mensagens instantâneas e talvez algumas funcionalidades adicionais, como salas de bate-papo temáticas. O projeto esta em fase final de desenvolvimento e logo estará disponível para testes.",
 
-        image: "",
+        image: "https://www.callicoder.com/static/721fc7e34a79986af75647253af9ace1/cd13d/spring-boot-websocket-sockjs-stomp-chat-example.png",
          tags: ["Java", "Spring Websockets", "WebSockets", "REACT", "Ajax"],
       category: "BackEnd",
     
@@ -246,9 +247,9 @@ export const Bio = {
     title: "AzureEscape Hotel Website",
     date: "Dec 2021 - Apr 2022",
     description:
-      "AzureEscape é um site de hotel fictício desenvolvido como parte do curso de Desenvolvimento Web Completo 2021. O site é responsivo e foi desenvolvido utilizando HTML5, CSS3 e JavaScript. Ele possui uma página inicial, uma página de quartos, uma página de contato e uma página de reserva. O site também possui um formulário de contato funcional que envia e-mails para o proprietário do hotel. O site foi hospedado no GitHub Pages e pode ser acessado em https://cauasebastian.github.io/AzureEscapeHotelWebsite/",
+      "AzureEscape é um site de hotel fictício desenvolvido como parte do curso de Desenvolvimento Web Completo 2021. O site é responsivo e foi desenvolvido utilizando HTML5, CSS3 e JavaScript. Ele possui uma página inicial, uma página de quartos, uma página de contato e uma página de reserva. O site também possui um formulário de contato funcional que envia e-mails para o proprietário do hotel. O site está em fase de desenvolvimento e ainda nao foi publicado e hospedado.",
     image:
-      "",
+      "https://w3layouts.com/wp-content/uploads/2020/09/hotels-website-template-scaled.jpg",
     tags: ["Java", "MVVM", "React", "Spring Boot", "MongoDB","APIRESTFULL", "Cors", "Spring Security", "JWT"],
     category: "Full Stack",
     
