@@ -171,7 +171,7 @@ export const Bio = {
       title: "Conectech",
       date: "apri 2024 - jun 2024",
       description:
-      "Conectech é uma plataforma de interação e compartilhamento de informações projetada para profissionais da área de tecnologia. Com uma vasta gama de recursos e uma interface intuitiva, Conectech oferece uma experiência envolvente e produtiva para os usuários. Desde cadastro de usuário até participação em grupos e comunidades, passando por fóruns de discussão e chat em tempo real, Conectech é o ponto de encontro ideal para quem busca se manter atualizado e conectado com a comunidade tech. Desenvolvido utilizando tecnologias como React, MongoDB, Java e Spring Boot, o projeto oferece uma base sólida e escalável para garantir uma experiência de alta qualidade. O projeto está em fase de desenvolmento mas ja possui diversas funcionalidades e ja pode ser acessado nos Links abaixo. O projeto ainda nao está com o backend e frontend integrados mas é possivel visualizar o frontend e o backend separadamente.",
+      "Conectech é uma plataforma de interação e compartilhamento de informações projetada para profissionais da área de tecnologia. Com uma vasta gama de recursos e uma interface intuitiva, Conectech oferece uma experiência envolvente e produtiva para os usuários. Desde cadastro de usuário até participação em grupos e comunidades, passando por fóruns de discussão de ideias, Conectech é o ponto de encontro ideal para quem busca se manter atualizado e conectado com a comunidade tech. Desenvolvido utilizando tecnologias como React, MongoDB, Java e Spring Boot, o projeto oferece uma base sólida e escalável para garantir uma experiência de alta qualidade. O projeto está em fase de desenvolmento mas ja possui diversas funcionalidades e ja pode ser acessado nos Links abaixo. O projeto ja está com o backend e frontend integrados mas ainda não é possivel visualizar o frontend e o backend completamente integrados em um site.",
       image:
         "https://github.com/Cauasebastian/my-portfolio/blob/master/public/Captura%20de%20tela%202024-04-22%20200753.png?raw=true",
       tags: ["React",
@@ -190,6 +190,30 @@ export const Bio = {
           img: "https://avatars.githubusercontent.com/u/133614515?v=4",
           linkedin: "https://www.linkedin.com/in/cau%C3%A3-sebastian-7b1b3b1b3/",
           github: "https://github.com/Cauasebastian",
+        },
+        {
+          name: "Felipe Oliveira",
+          img: "https://avatars.githubusercontent.com/u/119983478?v=4",
+          linkedin: "https://www.linkedin.com/in/felipeoliveira25/",
+          github: "https://github.com/felipeoliveira25",
+        },
+        {
+          name: "Thales Thiago",
+          img: "https://avatars.githubusercontent.com/u/118924901?v=4",
+          linkedin: "",
+          github: "https://github.com/ThalesThiago",
+        },
+        {
+          name: "Maria Helena",
+          img: "https://avatars.githubusercontent.com/u/163069600?v=4",
+          linkedin: "",
+          github: "https://github.com/mhelenaas",
+        },
+        {
+          name: "Edgar Tavares",
+          img: "https://avatars.githubusercontent.com/u/128823423?v=4",
+          linkedin: "https://www.linkedin.com/in/edgar-tavares-333847270/",
+          github: "https://github.com/Edgar-tavares",
         }
       ],
     },
