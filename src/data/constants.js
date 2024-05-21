@@ -198,6 +198,12 @@ export const Bio = {
           github: "https://github.com/felipeoliveira25",
         },
         {
+          name: "Lara Nunes",
+          img: "https://avatars.githubusercontent.com/u/110771720?v=4",
+          linkedin: "https://www.linkedin.com/in/laranunesux/",
+          github: "https://github.com/Laranunes1",
+        },
+        {
           name: "Thales Thiago",
           img: "https://avatars.githubusercontent.com/u/118924901?v=4",
           linkedin: "",
