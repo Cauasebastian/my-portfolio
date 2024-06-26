@@ -7,10 +7,10 @@ export const Bio = {
       "Programmer",
     ],
     description:
-      "Sou Cauã Sebastian, um Desenvolvedor Full Stack motivado e versátil, sempre pronto para novos desafios. Com experiência em projetos acadêmicos e pessoais, busco minha primeira oportunidade de trabalho em tempo integral. Minha liderança em projetos universitários me ensinou a importância da colaboração e comunicação eficaz. Com uma mentalidade de crescimento, estou pronto para contribuir significativamente e alcançar grandes coisas. Explore meu portfólio!",
+      "Sou Cauã Sebastian, Desenvolvedor Full Stack, buscando minha primeira oportunidade de trabalho em tempo integral. Tenho experiência em projetos Full-Stack, liderando equipes, implementando backends com Spring Boot e realizando deploys na AWS e Vercel. Desenvolvi aplicações interativas com React e assegurei a segurança com JWT e OAuth. Com habilidades em colaboração, liderança e uma mentalidade de crescimento, estou pronto para contribuir significativamente. Explore meu portfólio!",
     github: "https://github.com/Cauasebastian",
     resume:
-      "https://docs.google.com/document/d/1zv8zCWio3OWn2cT20oeZPg8TwPd61AZTF1dQMXKHAXg/edit?usp=sharing",
+      "https://universidadecatolica-my.sharepoint.com/:w:/g/personal/caua_00000850283_unicap_br/EWqfuHjIMc5MkV1rXGa6xokBzSuyQ0mO8FvWNWXaQ887SA?e=RsMeGw",
     linkedin: "www.linkedin.com/in/cauã-sebastian-57a532259",
     insta: "https://www.instagram.com/caua_sebastian"
   };
