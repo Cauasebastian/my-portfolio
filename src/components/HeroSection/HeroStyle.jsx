@@ -103,6 +103,7 @@ export const Img = styled.img`
   max-height: 400px;
   border-radius: 50%;
   border: 2px solid ${({ theme }) => theme.primary};
+  object-fit: cover; // Garante que a imagem mantenha sua proporção
 
   @media (max-width: 768px) {
     max-width: 400px;

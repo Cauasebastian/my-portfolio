@@ -80,6 +80,10 @@ export const Bio = {
         {
           "name": "Firebase",
           "image": "https://www.vectorlogo.zone/logos/firebase/firebase-icon.svg"
+        },
+        {
+          "name": "Kafka",
+          "image": "https://www.vectorlogo.zone/logos/apache_kafka/apache_kafka-icon.svg"
         }
       ]
     },    
@@ -109,6 +113,9 @@ export const Bio = {
         {
           "name": "Figma",
           "image": "https://www.vectorlogo.zone/logos/figma/figma-icon.svg"
+        }, {
+          "name": "AWS",
+          "image": "https://raw.githubusercontent.com/devicons/devicon/master/icons/amazonwebservices/amazonwebservices-original-wordmark.svg"
         }
       ]
     }        
@@ -226,7 +233,7 @@ export const Bio = {
     {
       id: 1,
       title: "ProjetoSpringBoot",
-      date: "jan 2024 - ",
+      date: "jan 2024 -  Feb 25, 2024",
       description:
       "O Projeto Web Services com Spring Boot e JPA / Hibernate é uma aplicação desenvolvida como parte do curso DevSuperior, demonstrando operações CRUD para entidades fundamentais, como Usuário, Pedido, Item de Pedido, Pagamento, Produto e Categoria, utilizando tecnologias modernas como Spring Boot e JPA / Hibernate.O projeto ja pode ser acessado no github e ja está disponivel para clone e testes.",
       image:
@@ -291,11 +298,33 @@ export const Bio = {
       description:
           "Este é um simples site climático que permite aos usuários verificar o clima de qualquer cidade em tempo real. Desenvolvido por Cauã Sebastian.Dev como um dos seus primeiros projetos, o site utiliza tecnologias como HTML, CSS e JavaScript, juntamente com as APIs do OpenWeatherMap e do Unsplash. Além de fornecer dados meteorológicos como temperatura, umidade e velocidade do vento, o site também exibe uma imagem representativa da cidade pesquisada. Uma ótima ferramenta para quem deseja estar sempre atualizado sobre as condições climáticas.",
       image:
-          "https://media.licdn.com/dms/image/D4D22AQE-Y9ycSAyU2A/feedshare-shrink_800/0/1710439805961?e=1716422400&v=beta&t=vi8w7SqGQgaIaZuZfeDO5nzdGB-zzQvIliinoUUTXNE",
+          "https://media.licdn.com/dms/image/D4D22AQE-Y9ycSAyU2A/feedshare-shrink_800/0/1710439805961?e=1726099200&v=beta&t=405B_-AQADvpgs4gEWurkJBK3WS7H0Gi5bw1zFFsbcI",
       tags: ["HTML", "CSS", "Javascript", "Api",],
       category: "FrontEnd",
       github: "https://github.com/Cauasebastian/site-climatico",
       webapp: "https://cauasebastian.github.io/site-climatico/",
+    },
+    {
+      id: 6,
+      title: "Projeto Microservices",
+      date: "Jul 20, 2024 -  Aug 2, 2024 ",
+      description:
+      "Este projeto de microserviços explora uma arquitetura moderna utilizando Spring Boot, Docker e Keycloak, desenvolvido para fins educacionais. Ele implementa funcionalidades essenciais como cadastro e consulta de produtos, gerenciamento de inventário e processamento de pedidos, utilizando autenticação com Keycloak e notificações assíncronas com Kafka. A arquitetura é projetada para ser escalável e resiliente, com circuit breakers usando Resilience4J e monitoramento com Zipkin e Grafana. O código completo e mais detalhes estão disponíveis no repositório GitHub.",
+      image:
+      "https://github.com/Cauasebastian/Microsservices-Project/raw/main/assets/project-images/project-architecture.png",
+      tags: [
+        "Java",
+        "Spring Boot",
+        "Microservices",
+        "Docker",
+        "Keycloak",
+        "Kafka",
+        "Resilience4J",
+        "Zipkin",
+        "Grafana",
+      ],
+      category: "BackEnd",
+      github: "https://github.com/Cauasebastian/Microsservices-Project",
     },
   ];
   
