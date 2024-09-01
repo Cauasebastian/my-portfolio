@@ -3,14 +3,13 @@ export const Bio = {
     roles: [
       "Full Stack Developer",
       "Back-End Developer",
-      "UI/UX Designer",
-      "Programmer",
+      "Software Engineer",
     ],
     description:
-      "Sou Cauã Sebastian, Desenvolvedor Full Stack, buscando minha primeira oportunidade de trabalho em tempo integral. Tenho experiência em projetos Full-Stack, liderando equipes, implementando backends com Spring Boot e realizando deploys na AWS e Vercel. Desenvolvi aplicações interativas com React e assegurei a segurança com JWT e OAuth. Com habilidades em colaboração, liderança e uma mentalidade de crescimento, estou pronto para contribuir significativamente. Explore meu portfólio!",
+      "Sou Cauã Sebastian Desenvolvedor Full Stack com experiência prática em Spring Framework e AWS, destacando-se na liderança de equipes e no desenvolvimento de aplicações robustas utilizando arquiteturas de microsserviços e padrão SOLID. Durante minha graduação, trabalhei diretamente com empresas em residências de software, adquirindo habilidades essenciais para atuar de forma eficaz em ambientes profissionais.Explore meu portfólio!",
     github: "https://github.com/Cauasebastian",
     resume:
-      "https://universidadecatolica-my.sharepoint.com/:w:/g/personal/caua_00000850283_unicap_br/EWqfuHjIMc5MkV1rXGa6xokBzSuyQ0mO8FvWNWXaQ887SA?e=RsMeGw",
+      "https://www.canva.com/design/DAGPHrBO3lY/22fFYjNRy_Ilc-U5j5gAbw/view?utm_content=DAGPHrBO3lY&utm_campaign=designshare&utm_medium=link&utm_source=editor",
     linkedin: "www.linkedin.com/in/cauã-sebastian-57a532259",
     insta: "https://www.instagram.com/caua_sebastian"
   };
@@ -47,6 +46,11 @@ export const Bio = {
           name: "Flutter",
           image:
             "https://cdn-images-1.medium.com/max/1200/1*5-aoK8IBmXve5whBQM90GA.png",
+        },
+        {
+          name: "Redux",
+          image:
+            "https://raw.githubusercontent.com/reduxjs/redux/master/logo/logo.png",
         },
       ],
     },
@@ -127,7 +131,7 @@ export const Bio = {
       role: "Desenvolvedor Backend",
       company: "Unicap - Recife, PE",
       date: "Março de 2024 - Junho de 2024",
-      desc: "Liderança em um projeto universitário, definindo regras de negócio e desenvolvendo o backend utilizando Spring Boot e arquitetura MVC. Implementação de mapeamento objeto-relacional (ORM) para integração com banco de dados, garantindo eficiência e segurança. Supervisão ativa de uma equipe de dois membros.",
+      desc: "Desenvolvi um projeto acadêmico como Líder de Equipe e Desenvolvedor Full Stack, com responsabilidades na coordenação e implementação do backend da aplicação, bem como no deploy na AWS. Fui responsável por otimizar a performance e a escalabilidade do sistema garantindo eficiência e segurança alem de garantir uma supervisão ativa de uma equipe de dois membros.",
       skills: [
       "Spring Boot",
       "Java",
@@ -167,7 +171,7 @@ export const Bio = {
       school: "Universidade Católica De Pernambuco",
       date: "Fev 2023 - Jun 2025",
       grade: "8.02 CGPA",
-      desc: "Atualmente, estou cursando um Curso Superior de Tecnologia em Sistemas para Internet na Universidade Católica De Pernambuco. Durante meu curso, adquiri conhecimentos fundamentais em disciplinas como Lógica de Programação, Programação para Web, Banco de Dados, Engenharia de Software, Programação Imperativa e Programação Orientada a Objetos. Além disso, participei ativamente de projetos em equipe, onde desenvolvi habilidades de colaboração e liderança. Estou constantemente buscando aprimorar minhas habilidades e aplicar meus conhecimentos em projetos práticos.",
+      desc: "Durante meu período acadêmico, participei de residências tecnológicas com empresas renomadas do Porto Digital, como a Accenture e a CloudInControl. Trabalhei com tecnologias e metodologias voltadas para o mercado, desenvolvendo sistemas e softwares. Além disso, participei de reuniões semanais para acompanhamento com mentores profissionais, em cada ciclo de desenvolvimento, visando coleta de feedbacks e melhorias pontuais.",
      degree: "Curso Superior de Tecnologia - Sistemas para Internet -",
     },
   ];
@@ -284,10 +288,10 @@ export const Bio = {
     title: "AzureEscape Hotel Website",
     date: "Dec 2021 - Apr 2022",
     description:
-      "AzureEscape é um site de hotel fictício desenvolvido como parte do curso de Desenvolvimento Web Completo 2021. O site é responsivo e foi desenvolvido utilizando HTML5, CSS3 e JavaScript. Ele possui uma página inicial, uma página de quartos, uma página de contato e uma página de reserva. O site também possui um formulário de contato funcional que envia e-mails para o proprietário do hotel. O site está em fase de desenvolvimento e ainda nao foi publicado e hospedado.",
+      "Desenvolvi uma Plataforma de Gerenciamento de Hotéis usando React e Bootstrap, resultando em uma interface de usuário responsiva e intuitiva. A plataforma foi projetada para atender tanto administradores quanto usuários finais, garantindo uma navegação fluida e eficiente.Implementei caching com Redis, reduzindo o tempo de resposta em 50%, o que melhorou significativamente a velocidade de carregamento das páginas e proporcionou uma experiência mais rápida e responsiva. Configurei autenticação e segurança usando JWT, garantindo a proteção dos dados dos usuários com criptografia e conformidade com padrões de segurança.",
     image:
-      "https://w3layouts.com/wp-content/uploads/2020/09/hotels-website-template-scaled.jpg",
-    tags: ["Java", "MVVM", "React", "Spring Boot", "MongoDB","APIRESTFULL", "Cors", "Spring Security", "JWT"],
+      "https://github.com/Cauasebastian/AzureEscapeHotel/raw/master/assets/imagem1.png",
+    tags: ["Java", "MVVM", "React", "Spring Boot", "MongoDB","APIRESTFULL", "Cors", "Spring Security", "Redux"],
     category: "Full Stack",
     
   },
