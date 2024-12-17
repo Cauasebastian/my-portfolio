@@ -1,3 +1,6 @@
+import taskAppImg from "../images/taskApp.png"
+import IaImage from "../images/IAProject.png";
+
 export const Bio = {
     name: "Cauã Sebastian",
     roles: [
@@ -149,38 +152,37 @@ export const Bio = {
   export const experiences = [
     {
       id: 1,
-      role: "Desenvolvedor Backend",
-      company: "Unicap - Recife, PE",
-      date: "Março de 2024 - Junho de 2024",
-      desc: "Desenvolvi um projeto acadêmico como Líder de Equipe e Desenvolvedor Full Stack, com responsabilidades na coordenação e implementação do backend da aplicação, bem como no deploy na AWS. Fui responsável por otimizar a performance e a escalabilidade do sistema garantindo eficiência e segurança alem de garantir uma supervisão ativa de uma equipe de dois membros.",
+      role: "Desenvolvedor Full-Stack e Líder de Projeto",
+      company: "Porto Digital - Mosca Branca DEEP-TECH",
+      date: "Agosto de 2024 - Dezembro de 2024",
+      desc: "Responsável pelo ciclo completo de desenvolvimento de aplicações, desde o design até a implementação, com foco em integração e eficiência, liderando equipes de Front-end, Back-end e Design, implementando interfaces responsivas em React e TypeScript, otimizando cálculos de valuation de startups, integrando APIs RESTful no padrão MVC e facilitando a colaboração técnica e de design.",
       skills: [
-      "Spring Boot",
-      "Java",
+      "Gerenciamento de projetos",
+      "React",
       "Arquitetura MVC",
-      "ORM",
-      "Banco de Dados",
-      "MongoDB",
-      "Liderança",
-      "Trabalho em Equipe",
-      "Comunicação Eficaz",
-      "Liderança de Equipe"
+      "TypeScript",
+      "APIs RESTful",
+      "MVC",
+      "Spring Boot",
+      "MySQL",
+      "Chakra UI",
+      "Ajax",
+      "JWT",
+      "Spring Security",
   ],
     },
     {
       id: 2,
-  role: "Desenvolvedor Front-End",
-  company: "Unicap - Recife, PE",
-  date: "Agosto de 2023 - Novembro de 2023",
-  desc: "Responsável por transformar conceitos de design em interfaces de usuário funcionais e visualmente agradáveis. Desenvolvimento de interfaces interativas e dinâmicas utilizando HTML, CSS, JavaScript e frameworks como React. Colaboração na integração frontend com o backend, garantindo uma experiência de usuário coesa. Utilização de APIs para comunicação eficiente com o backend.",
+  role: "Desenvolvedor Backend",
+  company: "Porto Digital - Accenture",
+  date: "Janeiro de 2023 - Junho de 2023",
+  desc: "Responsavel pelo desenvolvimento do backend de um aplicativo Flutter para a Accenture, utilizando Node.js e Firebase, com foco em geolocalização para localizar oficinas próximas, autenticação segura via Firebase Authentication, integração em tempo real com o app Flutter, garantindo comunicação eficaz entre backend e frontend e uma experiência de usuário aprimorada.",
   skills: [
-    "HTML",
-    "CSS",
+    "Node.js",
+    "Firebase",
     "JavaScript",
-    "React",
-    "UI/UX Design",
-    "APIs",
-    "Trabalho em Equipe",
-    "Resolução de Problemas",
+    "Flutter",
+    "Google Maps API",
   ],
     }
   ];
@@ -192,7 +194,7 @@ export const Bio = {
       school: "Universidade Católica De Pernambuco",
       date: "Fev 2023 - Jun 2025",
       grade: "8.02 CGPA",
-      desc: "Durante meu período acadêmico, participei de residências tecnológicas com empresas renomadas do Porto Digital, como a Accenture e a CloudInControl. Trabalhei com tecnologias e metodologias voltadas para o mercado, desenvolvendo sistemas e softwares. Além disso, participei de reuniões semanais para acompanhamento com mentores profissionais, em cada ciclo de desenvolvimento, visando coleta de feedbacks e melhorias pontuais.",
+      desc: "Durante meu período acadêmico, participei de residências tecnológicas com empresas renomadas do Porto Digital, como a Accenture ,CloudInControl e Mosca Branca DEEP-TECH. Trabalhei com tecnologias e metodologias voltadas para o mercado, desenvolvendo sistemas e softwares. Além disso, participei de reuniões semanais para acompanhamento com mentores profissionais, em cada ciclo de desenvolvimento, visando coleta de feedbacks e melhorias pontuais.",
      degree: "Curso Superior de Tecnologia - Sistemas para Internet -",
     },
   ];
@@ -211,6 +213,7 @@ export const Bio = {
        "Javascript",
        "Java",
        "Spring Boot",
+       "MUI (Material-UI)",
        
       ],
       category: "Full Stack",
@@ -350,5 +353,65 @@ export const Bio = {
       category: "BackEnd",
       github: "https://github.com/Cauasebastian/Microsservices-Project",
     },
+    {
+      id: 7,
+      title: "Projeto-StableDiffusion-IA",
+      date: "Nov 1, 2024 - Dez 1, 2024",
+      description:
+      "Este projeto utiliza o modelo de difusão Stable Diffusion para gerar imagens a partir de prompts textuais, com otimização para criar imagens de alta qualidade. O sistema oferece funcionalidades como escolha de diferentes versões do modelo, ajuste de parâmetros e aplicação de estilos gráficos. Utilizando tecnologias como Gradio, Torch e Diffusers, o projeto permite que os usuários gerem imagens detalhadas e criativas a partir de descrições textuais.",
+      image: IaImage,
+      tags: [
+        "Python",
+        "Stable Diffusion",
+        "Torch",
+        "Gradio",
+        "Inteligência Artificial",
+        "Geração de Imagens",
+        "Diffusers",
+      ],
+      category: "Backend",
+      github: "https://github.com/Cauasebastian/Projeto-StableDiffusion-IA",
+    },
+    {
+      id: 8,
+      title: "Task App - Projeto Final de Mobile",
+      date: "Nov 10, 2024 - Dez 10, 2024",
+      description:
+      "Este projeto final de Mobile foi desenvolvido utilizando Flutter para o front-end e Spring Boot com MongoDB para o back-end, visando criar uma ferramenta de gerenciamento de tarefas. O aplicativo inclui funcionalidades como autenticação de usuários, gerenciamento de tarefas (criar, editar, excluir, listar por categorias ou datas) e armazenamento persistente das informações. A autenticação é feita com JWT e o back-end é containerizado com Docker para facilitar o deploy.",
+      image: taskAppImg,
+      tags: [
+        "Flutter",
+        "Spring Boot",
+        "MongoDB",
+        "JWT",
+        "Docker",
+        "Provider",
+        "Material Design",
+        "Mobile",
+      ],
+      category: "FullStack",
+      github: "https://github.com/Cauasebastian/projetofinalflutter",
+    },{
+      id: 9,
+      title: "DevNautas - Seismic Event Detection",
+      date: "Set 15, 2024 - Out 30, 2024",
+      description:
+      "O projeto DevNautas detecta eventos sísmicos em conjuntos de dados da NASA usando técnicas de aprendizado online. Ele utiliza o algoritmo Adaptive Random Forest para identificar eventos sísmicos em tempo real, diferenciando-os de ruídos e otimizando os custos operacionais. Com uma precisão de 89% em dados lunares e 76% em dados marcianos, o sistema é robusto e escalável, adaptando-se a padrões de drift conceitual em fluxos de dados. Implementado em Python com a biblioteca Scikit-multiflow, o projeto oferece uma abordagem eficiente para análise de dados de streaming.",
+      image:
+      "https://assets.spaceappschallenge.org/media/images/Sismonauta.width-1024.png",
+      tags: [
+        "Python",
+        "Scikit-multiflow",
+        "Machine Learning",
+        "Drift Detection",
+        "Online Learning",
+        "Adaptive Random Forest",
+        "Data Streams",
+      ],
+      category: "Backend",
+      github: "https://github.com/liviasouza01/NASA/tree/main",
+      webapp: "https://www.spaceappschallenge.org/nasa-space-apps-2024/find-a-team/devnautas/?tab=project",
+    }    
+    
   ];
   
